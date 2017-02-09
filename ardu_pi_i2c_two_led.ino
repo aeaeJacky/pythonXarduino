@@ -8,8 +8,6 @@ Adafruit_NeoPixel leds = Adafruit_NeoPixel(NUMLEDS, PIN, NEO_GRB + NEO_KHZ800);
 #include <Wire.h>
 #include <SoftwareSerial.h>
 
-//#include <MeMCore.h>
-
 int wait = 5;                         // Standard wait delay of 5 milliseconds 
 
 int SLAVE_ADDRESS = 33;
