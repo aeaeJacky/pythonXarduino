@@ -20,7 +20,7 @@ boolean ledOn = false;
 
 void setup(){
   Serial.begin(9600);
-  Serial.println("hw");  
+  Serial.println("Hello, World!");  
   leds.begin();                       // Initialize 'leds' object
 
     //Make sure LED is off to demonstrate start of sketch
